@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <!--新浪微博关注-->
+    <meta property="wb:webmaster" content="3ab1b1585d16c13c" />
+    <title>Devin个人作品展示网站</title>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="icon" type="image/png" href="img/logo.ico">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/owl/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl/owl.theme.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--&lt;!&ndash;控制幻灯片上面的左右箭头&ndash;&gt;-->
+    <!--<link href="css/font-awesome_arrow.min.css" rel="stylesheet">-->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html"><img src="img/logo.png"></a>
+        </div>
+        <!-- 中英文切换 -->
+        <!--<div class="language"><span>中</span>|<span>EN</span></div>-->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="text-center"><a href="index.html">首页</a></li>
+                <li class="text-center"><a href="project.html">项目案例</a></li>
+                <li class="text-center"><a href="resume.html">个人简介</a></li>
+                <li class="text-center"><a href="about.html">联系方式</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!-- list -->
+<section class="contact">
+    <h1 class="text-center">联系方式</h1>
+    <div class="container">
+        <!--<div class="row">-->
+        <!--<div class="col-sm-12 text-center">-->
+        <!--<h3>子标题</h3>-->
+        <!--</div>-->
+        <!--</div>-->
+        <div class="row address">
+            <div class="col-sm-4 text-center">
+                <div class="mar-bot30"><i class="fa fa-phone fa-3x"></i></div>
+                <h4>18112550622</h4>
+            </div>
+            <div class="col-sm-4 text-center">
+                <div class="mar-bot30"><i class="fa fa-map-pin fa-3x"></i></div>
+                <h4 class="zh">江苏省苏州市吴中区</h4>
+            </div>
+            <div class="col-sm-4 text-center">
+                <div class="mar-bot30"><i class="fa fa-envelope fa-3x"></i></div>
+                <h4>yunlong1987.hi@163.com</h4>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row address">
+            <div class="col-sm-4 text-center">
+                <div class="mar-bot30"><i class="fa fa-weibo fa-3x"></i></div>
+                <div id="wb_follow_btn" style="display: inline-block; overflow: hidden;padding-left: 50px;" >
+                    <wb:follow-button uid="5476537643" type="red_4" width="240" height="64" ></wb:follow-button>
+                </div>
+            </div>
+            <div class="col-sm-4 text-center">
+                <div class="mar-bot30"><i class="fa fa-qq fa-3x"></i></div>
+                <img src="img/qq2barcode.png" width="280" height="280">
+            </div>
+            <div class="col-sm-4 text-center">
+                <div class="mar-bot30"><i class="fa fa-weixin fa-3x"></i></div>
+                <img src="img/wx2barcode.png" width="280" height="280">
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row text-center">
+            <div class="rel" style="display: inline-block;">
+                <a href="##"><i id="qqcard" class="fa fa-qq fa-2x"></i>
+                    <div class="tip">
+                        <img src="img/qqcard.png">
+                    </div>
+                </a>
+            </div>
+            <div class="rel" style="display: inline-block;">
+                <a href="##"><i id="devinmp" class="fa fa-weixin fa-2x"></i>
+                    <div class="tip">
+                        <img src="img/devinmp.png">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-2 col-md-offset-2"><i class="fa fa-phone"></i>：18112550622</div>
+            <div class="col-lg-4 col-md-4"><i class="fa fa-map-pin"></i>：江苏省苏州市吴中区</div>
+            <div class="col-lg-3 col-md-3"><i class="fa fa-envelope"></i>：yunlong1987.hi@163.com</div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center">
+        <span>©2016 Devin. All rights reserved. </span>
+    </div>
+</footer><!-- /.footer -->
+<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<!-- 项目案例过滤器 -->
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl/owl.carousel.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+    $(function(){
+        weixin();
+        qq();
+    });
+</script>
+</body>
+</html>

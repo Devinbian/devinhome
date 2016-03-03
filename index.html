@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <!--新浪微博关注-->
+    <meta property="wb:webmaster" content="3ab1b1585d16c13c" />
+    <title>Devin个人作品展示网站</title>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="icon" type="image/png" href="img/logo.ico">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/owl/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl/owl.theme.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!--控制幻灯片上面的左右箭头-->
+    <!--<link href="css/font-awesome_arrow.min.css" rel="stylesheet">-->
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-right">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html"><img src="img/logo.png"></a>
+        </div>
+        <!-- 中英文切换 -->
+        <!--<div class="language"></div>-->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="text-center"><a href="index.html">首页</a></li>
+                <li class="text-center"><a href="project.html">项目案例</a></li>
+                <li class="text-center"><a href="resume.html">个人简介</a></li>
+                <li class="text-center"><a href="about.html">联系方式</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!-- banner -->
+<section class="banner">
+    <div id="owl-demo" class="owl-carousel owl-theme">
+        <div class="item" style="background-image: url('img/banner1.jpg')">
+            <div class="mask"></div>
+            <div class="title">
+                <h3>sketch</h3>
+                <h5>一款优秀的设计软件，让ui设计更简单，更高效.</h5>
+            </div>
+        </div>
+        <div class="item" style="background-image: url('img/banner2.jpg')">
+            <div class="mask"></div>
+            <div class="title">
+                <h3>bootstrap</h3>
+                <h5>简洁、直观、强悍的前端开发框架，迅速开发出多终端适配的网站.</h5>
+            </div>
+        </div>
+        <div class="item" style="background-image: url('img/banner3.jpg')">
+            <div class="mask"></div>
+            <!--<div class="title">-->
+            <!--<h3>百仕达东郡喜荟城-深圳</h3>-->
+            <!--<h5>Here's our small slogan.</h5>-->
+            <!--</div>-->
+        </div>
+    </div>
+</section><!-- /.banner -->
+<!-- news -->
+<section class="introduce">
+    <h1 class="text-center title">个人介绍</h1>
+    <div class="container">
+        <div class="row">
+            <div class="com-xs-12 text-center">
+                <img class="img-responsive" src="img/touxiang.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-offset-2 col-sm-8 text-center">
+                <h4><p><strong>卞春</strong></p>
+                    <div id="wb_follow_btn" style="display: inline-block;overflow: hidden; " >
+                        <wb:follow-button uid="5476537643" type="red_3" height="30" ></wb:follow-button>
+                    </div>
+                    <p>苏州 | 产品经理、项目经理</p></h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 text-right">
+                <a class="a-link text-center" href="about.html">个人简介</a>
+            </div>
+            <div class="col-xs-6 text-left">
+                <a class="a-link text-center" href="project.html">项目作品</a>
+            </div>
+        </div>
+    </div>
+</section><!-- /.news -->
+<footer>
+    <div class="container">
+        <div class="row text-center">
+            <div class="rel" style="display: inline-block;">
+                <a href="##"><i id="qqcard" class="fa fa-qq fa-2x"></i>
+                    <div class="tip">
+                        <img src="img/qqcard.png">
+                    </div>
+                </a>
+            </div>
+            <div class="rel" style="display: inline-block;">
+                <a href="##"><i id="devinmp" class="fa fa-weixin fa-2x"></i>
+                <div class="tip">
+                    <img src="img/devinmp.png">
+                </div>
+                </a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-2 col-md-offset-2"><i class="fa fa-phone"></i>：18112550622</div>
+            <div class="col-lg-4 col-md-4"><i class="fa fa-map-pin"></i>：江苏省苏州市吴中区</div>
+            <div class="col-lg-3 col-md-3"><i class="fa fa-envelope"></i>：yunlong1987.hi@163.com</div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center">
+        <span>©2016 Devin. All rights reserved. </span>
+    </div>
+</footer><!-- /.footer -->
+<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<!-- 项目案例过滤器 -->
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl/owl.carousel.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+    $(function(){
+//        $('#owl-demo .item').height($(window).height()-50);//设置高度自适应屏幕高度
+        $('#owl-demo').owlCarousel({
+            navigation : true, // Show next and prev buttons
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            navText:["<i class='fa fa-angle-left fa-4x'></i>","<i class='fa fa-angle-right fa-4x'></i>"],
+            navigationText: ["<i class='fa fa-angle-left fa-4x'></i>","<i class='fa fa-angle-right fa-4x'></i>"],
+            singleItem:true
+//            afterUpdate:function(){$('#owl-demo .item').height($(window).height()-50);}//调整之后自适应高度
+        });
+        weixin();
+        qq();
+    });
+</script>
+</body>
+</html>
